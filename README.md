@@ -7,7 +7,7 @@ Before starting, some dirs are should be generated.
 source init.sh <base directory name>
 ```
 
-And then, run analysis tool with root like below.
+And then, run analysis tool by root like below.
 ```
 root -l 'Run.cc("<fime_number>", "<ped_num>", <analysis_mode>, <ped_mode>")'
 ```
