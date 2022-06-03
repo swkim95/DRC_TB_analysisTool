@@ -1,5 +1,5 @@
 # TB_analysisTool
-## How to user
+## How to use
 Location of files (data, dir for plots and validation files, etc.) is set on "location.h"
 
 Before starting, some dirs are should be generated.
