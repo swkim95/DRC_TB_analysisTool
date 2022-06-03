@@ -27,7 +27,7 @@ Available ped_mode is
 ```
 enum runMode {
 	kFull = 0,
-  kPrompt
+	kPrompt
 };
 ```
 
