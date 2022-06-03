@@ -9,7 +9,7 @@ source init.sh <base directory name>
 
 And then, run analysis tool by root like below.
 ```
-root -l 'Run.cc("<fime_number>", "<ped_num>", <analysis_mode>, <ped_mode>")'
+root -l 'Run.cc("<fime_number>", "<ped_num>", <analysis_mode>, <ped_mode>)'
 ```
 
 Available analysis_mode is
