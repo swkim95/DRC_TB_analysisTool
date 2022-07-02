@@ -11,18 +11,23 @@ enum discriminator {
 	kPeak,
 	kPed,
 	kWaveform,
+	kTiming,
 	kTest
 };
 
 enum runMode {
 	kFull = 0,
     kPrompt,
+    kCoarse,
     kNoPed
 };
 
-std::string BASE_DIR = "/Users/swkim/DRC/SV_TB_0604/0604_SV_develop/";
+std::string BASE_DIR = "/Users/khwang/scratch/TestBeam/github/TB_analysisTool/";
+std::string SCENARIO = "general";
 std::string DATA_DIR = "/Users/swkim/DRC/SV_TB_0604/data_220604/";
 std::string FILE_NAME = "elec_06_04";
+
+int NofDAQModule = 1;
 
 std::vector<int> chInput = {0, 4, 10, 14};
 std::vector<int> plotColor = {1, 634, 602, 1};
