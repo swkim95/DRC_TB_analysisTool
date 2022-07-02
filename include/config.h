@@ -22,7 +22,7 @@ enum runMode {
     kNoPed
 };
 
-std::string BASE_DIR = "/Users/khwang/scratch/TestBeam/github/TB_analysisTool/";
+std::string BASE_DIR = "/Users/swkim/DRC/0703_SV_develop/DRC_TB_analysisTool/";
 std::string SCENARIO = "general";
 std::string DATA_DIR = "/Users/swkim/DRC/SV_TB_0604/data_220604/";
 std::string FILE_NAME = "elec_06_04";

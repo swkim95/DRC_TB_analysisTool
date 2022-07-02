@@ -2,6 +2,7 @@ import sys, os
 import argparse
 import ROOT
 from plugin.functions import convert_args_to_enum, get_commands, init_directories ## custom functions
+ROOT.PyConfig.ShutDown = False
 
 ## Using argument parser
 parser = argparse.ArgumentParser()
@@ -31,4 +32,5 @@ if args.debug :
 
 ROOT.gInterpreter.ProcessLine(config_cmd) 
 init_directories(ROOT.BASE_DIR, args.runNum)           
-ROOT.gInterpreter.ProcessLine(macro_cmd)  
+ROOT.gInterpreter.ProcessLine(macro_cmd)
+input()
