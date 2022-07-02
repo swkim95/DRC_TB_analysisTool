@@ -5,21 +5,21 @@ def convert_args_to_enum(arguments):
 
     type_dict            = {'type': 0, 'pedType': 0, 'moduleType' : 0}
 
-    candIntegral         = ['kIntegral']
-    candPeak             = ['kPeak']
-    candWaveform         = ['kWaveform']
-    candTime             = ['kTiming']
-    candPed              = ['kPed']
+    candIntegral         = ['kIntegral', 'integral', 'int', 'i']
+    candPeak             = ['kPeak', 'peak', 'pk']
+    candWaveform         = ['kWaveform', 'waveform', 'wave', 'w']
+    candTime             = ['kTiming', 'timing', 'time', 't']
+    candPed              = ['kPed', 'ped', 'pd']
 
-    candFullPed          = ['kFull']
-    candPrompyPed        = ['kPrompt']
-    candCoarsePed        = ['kCoarse']
-    candNoPed            = ['kNoPed']
+    candFullPed          = ['kFull', 'full', 'f']
+    candPrompyPed        = ['kPrompt', 'prompt', 'ppt', 'p']
+    candCoarsePed        = ['kCoarse', 'coarse', 'cs', 'c']
+    candNoPed            = ['kNoPed', 'noPed', 'noped', 'no', 'np', 'n']
     candDummyPed         = ['-1']
 
-    candGenericPMT       = ['kGenericPMT']
-    candSiPM             = ['kSiPM']
-    candMCPPMT           = ['kMCPPMT']
+    candGenericPMT       = ['kGenericPMT', 'genericPMT', 'genericpmt', 'gen', 'genpmt', 'pmt']
+    candSiPM             = ['kSiPM', 'sipm', 's']
+    candMCPPMT           = ['kMCPPMT', 'mcppmt', 'mcp']
 
     if arguments.type in candIntegral :
         type_dict['type'] = 'kIntegral'
